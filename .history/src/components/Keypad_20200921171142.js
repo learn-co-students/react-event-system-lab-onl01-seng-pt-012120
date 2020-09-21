@@ -12,7 +12,7 @@ export default class Keypad extends Component{
         return(
             <input 
             type='password'
-            onKeyUp={this.handleKey }
+            onKeyUp={this.handleKey() }
             ></input>
         )
     }
