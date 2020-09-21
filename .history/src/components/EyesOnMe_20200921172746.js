@@ -8,7 +8,7 @@ export default class EyesOnMe extends Component{
     }
 
     handelBlur = (e) => {
-        console.log('Hey! Eyes on me!')
+        console.log('Bad!')
     }
     render(){
         return(
