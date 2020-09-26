@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 
 export default class EyesOnMe extends Component {
   
-  constructor(props) {
-    super(props)
-    this.state = {
-      color: this.props.color
-    }
-  }
 
   handleFocus = () => {
     console.log('Good!')
